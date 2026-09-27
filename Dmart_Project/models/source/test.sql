@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('dmart_Databrikcs', 'orders') }} LIMIT 10
