@@ -9,7 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
-# Environment variables and local secrets
-.env
-.env.*
-!.env.example
+# dbt local artifacts and secrets
+Dmart_Project/target/
+Dmart_Project/dbt_packages/
+Dmart_Project/logs/
+Dmart_Project/.user.yml
+Dmart_Project/profiles.yml
