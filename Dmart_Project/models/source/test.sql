@@ -1,1 +1,1 @@
-SELECT * FROM {{ source('dmart_Databrikcs', 'orders') }} LIMIT 10
+SELECT * FROM {{ source('walmart_databricks', 'orders') }} LIMIT 10
