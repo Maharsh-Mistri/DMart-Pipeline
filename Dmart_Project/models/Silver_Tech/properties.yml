@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: products_t
+  - name: products_tech
     columns:
       - name: product_id
         data_tests: 
@@ -10,7 +10,7 @@ models:
               config:
                 where: "price > 0"
 
-  - name: orders_t
+  - name: orders_tech
     columns:
       - name: order_id
         data_tests: 
