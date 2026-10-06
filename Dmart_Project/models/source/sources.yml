@@ -1,11 +1,11 @@
 sources:
-  - name: dmart_Databrikcs
+  - name: walmart_databricks
     database: dmart
     schema: bronze
     tables:
       - name: orders
       - name: customers
       - name: employees
-      - name: orders_items
+      - name: order_items
       - name: stores
       - name: products
